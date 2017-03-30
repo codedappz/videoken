@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VideoKen</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Libraries included for bootstrap, jquery and custom-->
+		<link rel="stylesheet" href="plugins/bootstrap.min.css"><!-- 
+		<link rel="stylesheet" href="assets/css/common/bby-workstation.css">
+ -->	</head>
+
+
+	<body>
+		<header style="background-color:#FF5733;
+		padding:15px;text-align:center;
+		font-size:25px;height:10vh;overflow:auto" class="center-block">
+			VideoKen
+		</header>
+		<div ng-app="videokenApp" style="height:80vh">
+			<ng-view> </ng-view>
+		</div>
+		<footer style="background-color:#FF5733;padding:25px;text-align:center;bottom:0px;height:10vh" class="hidden-xs hidden-sm center-block">
+			copyrights VideoKen
+		</footer>
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="plugins/angular.min.js"></script>
+		<script type="text/javascript" src="plugins/angular-route.min.js"></script>
+		<script type="text/javascript" src="plugins/bootstrap.min.js"></script>
+		<script type="text/javascript" src="plugins/ui-bootstrap-tpls-0.10.0.js"></script>
+		<script type="text/javascript" src="controllers/app.js"></script>
+		<script type="text/javascript" src="controllers/videoken.js"></script>
+		<script type="text/javascript" src="directive/customDirectives.js"></script>
+	</body>
+</html>

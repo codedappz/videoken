@@ -1,0 +1,19 @@
+<div class="center-block">
+	 <div class="col-sm-12 col-xs-12 col-md-5 col-lg-5" style="background-color:#eeee">
+	 	<form name=loginForm ng-submit="loginForm.$valid&&loginValidate(obj)">
+		    <div class="form-group center-block">
+		      <label for="username">Username:</label>
+		      <input type="username" class="form-control input-sm" id="username"
+		      	ng-model="obj.userName"
+		       placeholder="Enter username">
+		    </div>
+		    <div class="form-group center-block">
+		      <label for="password">Password:</label>
+		      <input type="password" class="form-control input-sm" id="password"
+		      	ng-model="obj.password"
+		      	 placeholder="Enter password">
+		    </div>
+		    <button type="submit" style="width:100%" class="btn btn-primary center-block">Submit</button>
+  		</form>
+  	</div>
+</div>
